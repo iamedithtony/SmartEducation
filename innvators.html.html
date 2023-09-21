@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Link to your CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="login_page.html" method="POST">
+            <!-- Username or Email input -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <!-- Error message (displayed when login fails) -->
+            <p class="error-message"><?php echo $login_error; ?></p>
+
+            <!-- Submit button -->
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Link to password recovery page -->
+        <a href="forgot_password.html">Forgot Password?</a><br>
+
+        <!-- Link to registration page -->
+        <a href="registration_page.html">New to login?</a>
+    </div>
+</center>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <!-- Link to your CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+    <div class="container">
+        <h1>Password Recovery</h1>
+        <form action="reset_password.php" method="POST">
+            <!-- Email input for password reset -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Error message (displayed when reset fails) -->
+            <p class="error-message"><?php echo $reset_error; ?></p>
+
+            <!-- Submit button -->
+            <button type="submit">Reset Password</button>
+        </form>
+
+        <!-- Link>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Registration</title>
+    <!-- Link to your CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+    <div class="container">
+        <h1>Registration</h1>
+        <form action="register.php" method="POST">
+            <!-- Username input -->
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username" required><br>
+
+            <!-- Email input -->
+            <label for="new-email">Email:</label>
+            <input type="email" id="new-email" name="new-email" required><br>
+
+            <!-- Password input -->
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password" required><br>
+
+            <!-- Error message (displayed when registration fails) -->
+            <p class="error-message"><?php echo $registration_error; ?></p>
+
+            <!-- Submit button -->
+            <button type="submit">Register</button>
+        </form>
+
+        <!-- Link to the login page -->
+        <a href="login.html">Already have an account? Login here</a>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to INNOVATORS</h1>
+    </header>
+    <div class="container">
+        <h2>Join With Us</h2>
+        <p>We Make You Smart.</p>
+        <h2>Together We Do</h2>
+        <ul>
+            <li>Studies</li>
+            <li>Programming</li>
+            <li>Design</li>
+        </ul>
+        <h2>Contact Us</h2>
+        <p>You can reach me at <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">innovators@gmail.com</a></p>
+    </div>
+  
+      <a href=school_subjects.html> <h3>School Subjects </h3></a>
+      <a href=reference.html> <h3>References</h3> </a>
+      <a href=timetable.html> <h3> Time Table </h3> </a>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>School Subjects</title>
+</head>
+<body>
+    <h1>School Subjects</h1>
+    <ul>
+        <li>Mathematics</li>
+        <li>Science</li>
+        <li>History</li>
+        <li>English</li>
+        <li>Physical Education</li>
+        <li>Art</li>
+        <li>Music</li>
+        <li>Geography</li>
+        <li>Computer Science</li>
+        <li>Foreign Languages</li>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reference Books</title>
+</head>
+<body>
+    <h1>Reference Books</h1>
+    <ul>
+<li>Skills HandBooks</li>    
+      <li>Dictionary</li>
+        <li>Mathematics</li>
+        <li>General knowledge Books</li>
+        <li>Formula Books</li>
+        <li>English Books</li>
+        <li>Physical Education</li>
+        <li>Biography</li>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Registration</title>
+    <!-- Link to your CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+    <div class="container">
+        <h1>Registration</h1>
+        <form action="register.php" method="POST">
+            <!-- Username input -->
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username" required><br>
+
+            <!-- Email input -->
+            <label for="new-email">Email:</label>
+            <input type="email" id="new-email" name="new-email" required><br>
+
+            <!-- Password input -->
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password" required><br>
+
+            <!-- Error message (displayed when registration fails) -->
+            <p class="error-message"><?php echo $registration_error; ?></p>
+
+            <!-- Submit button -->
+            <button type="submit">Register</button>
+        </form>
+
+        <!-- Link to the login page -->
+        <a href="login.html">Already have an account? Login here</a>
+    </div>
+</body>
+</html>
